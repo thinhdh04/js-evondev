@@ -34,3 +34,4 @@ console.log(li);
 // html: document.documentElement
 // body: document.body
 // head: document.head
+// title: document.title

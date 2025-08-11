@@ -290,3 +290,14 @@ body {
   color: #999;
   font-weight: 300;
 }
+
+/* .boxed {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  overflow-y: auto;
+}
+.box-content {
+  height: 600px;
+  width: 600px;
+} */

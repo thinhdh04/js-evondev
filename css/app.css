@@ -291,7 +291,7 @@ body {
   font-weight: 300;
 }
 
-/* .boxed {
+.boxed {
   height: 200px;
   width: 200px;
   background-color: orange;
@@ -300,4 +300,4 @@ body {
 .box-content {
   height: 600px;
   width: 600px;
-} */
+}

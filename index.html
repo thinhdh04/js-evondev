@@ -15,10 +15,19 @@
       integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
       crossorigin="anonymous"
     />
+    <!-- blocking page -->
+    <!-- defer: non-blocking page -->
+    <!-- 100kb -->
+    <script defer src="./events/other1.js"></script>
+    <!-- 2kb -->
+    <script defer src="./events/other2.js"></script>
+    <!-- async -->
+    <script async src="./events/other2.js"></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/app.css" />
   </head>
   <body>
-    <script src="./regular-expression/regex.js"></script>
+    <button class="button">Button</button>
+    <script defer src="./events/other.js"></script>
   </body>
 </html>
